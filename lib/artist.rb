@@ -26,7 +26,6 @@ class Artist
     end
 
     genres
-    # binding.pry
   end
 
   def self.all
