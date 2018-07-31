@@ -19,10 +19,9 @@ class Artist
   end
 
   def genres
-    array = self.songs.select do |song|
+    self.songs.select do |song|
       song.genre.name
     end
-    binding.pry
   end
 
   def self.all
