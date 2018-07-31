@@ -20,7 +20,7 @@ class Artist
 
   def genres
     array = self.songs.select do |song|
-      song.genre
+      song.genre.name
     end
     binding.pry
   end
