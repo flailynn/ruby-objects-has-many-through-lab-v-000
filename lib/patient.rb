@@ -1,7 +1,7 @@
 class Patient
   attr_accessor :name
 
-  def initialise(name)
+  def initialize(name)
     self.name = name
   end
 
