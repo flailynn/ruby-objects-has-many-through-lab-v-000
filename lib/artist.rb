@@ -19,10 +19,12 @@ class Artist
   end
 
   def genres
-    genres = self.songs.select do |song|
-      song
+    genres = []
+    self.songs.each do |song|
+      genres << song.genre
     end
-    binding.pry
+    genres
+    # binding.pry
   end
 
   def self.all
