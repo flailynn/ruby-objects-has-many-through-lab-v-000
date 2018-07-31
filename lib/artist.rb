@@ -5,6 +5,7 @@ class Artist
   def initialize(name)
     self.name = name
   end
+  
   def self.all
     @@all
   end

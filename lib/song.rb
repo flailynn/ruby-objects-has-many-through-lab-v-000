@@ -6,3 +6,5 @@ class Song
     self.artist = artist
     self.genre = genre
   end
+
+end
