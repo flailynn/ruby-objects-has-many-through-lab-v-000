@@ -27,6 +27,7 @@ def patients
   patients
 
 end
+
  def self.all
    @@all
  end
