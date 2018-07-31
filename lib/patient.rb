@@ -21,6 +21,8 @@ class Patient
     self.appointments.each do |appointment|
       doctors << appointment.doctor
     end
+
+    doctors
   end
 
 
