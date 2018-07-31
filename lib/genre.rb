@@ -12,9 +12,12 @@ class Genre
   end
 
   def artists
+    artists = []
     self.songs.select do |song|
-      song.artist
+      artists << song.artist
     end
+
+    artists
   end
 
 end
